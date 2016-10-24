@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shawna's Sweets</title>
+  <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:700italic,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <style>
+  body { background-color:#3f282d;
+      height: 100%;
+  margin: -20px 0 0 0;
+    color: white;}
+        
+  </style>
+    <style>
+    a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: #A99FA1;
+}
+  </style>
+    <style>header {
+  float: left;
+  background: #3f282d;
+  border-bottom: 2px solid #382428;
+  padding: 25px 0;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+}</style>
+    <style>.logo {
+  float: left;
+  text-align: left;
+  margin-left: 5%;
+  font-size: 28px;
+}</style>
+    <style>nav {
+  float: right;
+  text-align: right;
+  margin-right: 2%;
+}
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding-top: 8px;
+}
+
+
+nav li {
+  display: inline-block;
+  padding: 0 8px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+
+nav a {
+  padding: 15px 10px;
+}
+     nav a.selected{
+ color: #953255;
+      }
+</style>
+    <style>section {
+  background: #472d33;
+  height: 100%;
+  text-align: center;
+}
+
+
+section h1 {
+  padding-top: 17%;
+  font-family: 'Vollkorn', serif;
+  font-size: 48px;
+}
+
+
+section p {
+  width: 500px;
+  margin: -28px auto 32px;
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+
+#submit {
+  height: 50px;
+  width: 220px;
+  background: #BA4662;
+  color: inherit;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  letter-spacing: 3px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background .3s ease-in-out;
+}
+
+
+#submit:hover {
+  background: #AE3C58;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #BA4662;
+  box-shadow: 0 0 10px #BA4662;
+}
+ </style>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <header>
+      <a href="#" class="logo">
+        <em>Shawna's</em><strong>Sweets</strong>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html" >Home</a></li>
+        <li><a href="aboutus.html" >About Us</a></li>
+        <li><a href="FAQs.html">FAQs</a></li>
+        <li><a href="selections.html">Selections</a></li>
+        <li><a href="giftatreat.html" class="selected">Gift a Treat</a></li>
+       <li><a href="tellusaboutyourexperience.html">Tell Us About Your Experience!</a></li>
+       <li><a href="contactus.html">Contact Us</a></li>
+        </ul>      
+      </nav>
+    </header>
+    
+    
+    <html>
+<body>
+  <div id="wrapper">
+  <div id="inputs">
+  <div>
+<center><form name="input" action="#" method="post">
+  <h1>Order</h1>
+  First name: <input type="text" name="firstname" placeholder="John"><br/>
+  Last name: <input type="text" name="lastname" placeholder="Doe"><br/>
+  Address:<input type="text" name="Adress" placeholder="1234 Street City, ST Zip">
+ <br/>
+  Email: <input type="email" name="email" placeholder="John.Doe@someone.com">
+<br/>
+<p>Select a Sweet</p>
+    <input type='checkbox' checked>Macarons    <input type='checkbox'  
+
+    <input type='checkbox'>Cookies
+    <input type='checkbox'>Bakery Balls
+    
+    
+    <p>Cookie Flavors</p>
+    <input type='checkbox' checked>M&M    <input type='checkbox'  
+
+    <input type='checkbox'>Chocolate Chip
+    <input type='checkbox'>White Chocolate
+  
+  <p>Macaron Flavors</p>
+    <input type='checkbox' checked>Rasberry    <input type='checkbox'  
+
+    <input type='checkbox'>Coffee
+    <input type='checkbox'>mint
+    
+  <p>Bakery Ball Flavors</p>
+    <input type='checkbox' checked>Chocolate    <input type='checkbox'  
+
+    <input type='checkbox'>Vanilla
+    <input type='checkbox'>Strawberry
+    
+   <p>Quantity (if you've selected more than one treat, you will recieve an even amount of each)</p>
+    <input type='checkbox' checked>12    <input type='checkbox'  
+
+    <input type='checkbox'>24
+    <input type='checkbox'>36
+  
+  
+    <p>Comments(insert preferences here):</br></p>
+	  <textarea></textarea>
+	  <p></p>
+       
+
+</form>
+      <form action="orderconfirmation.html">
+    <input type="submit" value="Submit">
+   
+</div>
+</div>
+  
+  <style>
+    form {font-family: 'Lato', sans-serif;
+  
+  
+  </style>
+</body>
+</html>
+    <footer>&copy;2014 Shawna's Sweets</footer>
+    
+    <style>footer 
+      {text-align:center;
+      font-family:'Lato', sans-serif;}
+  
+  </style>
+        
+<!--I do realize that in order to make a formm work properly, I would need to use PHP. But seeing as though I have to download and place my website into a folder, I cannot do that.-->
+
+    </body>
+ 
+  </html>
+  
